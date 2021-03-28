@@ -68,6 +68,7 @@ public class MyArray {
 	}
 	public static int[] add(int a[],int b){
 //		it will add an element in an array;
+// 		Example int_datatype = MyArray.add(int_datatype,add_int);
 		int temp[] = new int[a.length+1];
 		for(int i=0;i<a.length;i++) {
 			temp[i]=a[i];
